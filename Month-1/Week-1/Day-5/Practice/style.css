@@ -1,0 +1,46 @@
+h1{
+    background-color: rgb(178, 21, 163);
+}
+
+p{
+    background-color: wheat;
+}
+#leo{
+    background-color: hotpink;
+}
+.mp{
+    color: red;
+}
+.{
+    font-family: cursive;
+}
+.mp_child{
+    background-color: rgb(90, 12, 13);
+}
+/*~ universal selctor */
+/* *{
+    font-family: fantasy;
+} */
+
+
+/* => combinator selector
+    -> descedent selector
+    -> direct child selector
+    -> Adjacent sibling selector
+    -> general sibling selector
+*/
+
+.parent p{
+    background-color: rgb(218, 34, 172);
+}
+.parent>p{
+    color: rgb(18, 185, 15);
+}
+
+.parent + div{
+    color: rgb(18, 23, 175);
+}
+
+.parent ~ div{
+    background-color: rgb(193, 187, 29);
+}

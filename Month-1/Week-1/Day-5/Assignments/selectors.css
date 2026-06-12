@@ -1,0 +1,50 @@
+#first-para{
+    font-size: 200%;
+}
+#red{
+    color: red;
+}
+#green{
+    color: green;
+}
+#list{
+    border-collapse: collapse;
+}
+.space{
+    padding-right: 100px;
+}
+.gray:nth-child(even){
+    background-color: rgb(77, 75, 75);
+    color: white;
+}
+#image{
+    height: 400px;
+    width: 250px;
+    padding: 25px;
+    border: 35px;
+    border-color: rgb(33, 31, 31);
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+form{
+    background-color: rgb(221, 219, 219);
+    padding: 25px;
+    color: rgb(100, 99, 99);
+}
+.left{
+    text-align: left;
+    color: rgb(100, 99, 99);
+}
+.form-space{
+    padding-right: 20px;
+}
+#table-margin{
+    margin: 20px;
+}
+input::placeholder{
+    color: rgb(203, 199, 199);
+}
